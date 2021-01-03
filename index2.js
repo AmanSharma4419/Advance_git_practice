@@ -1,1 +1,1 @@
-console.log("is a mern stack developer")
+export const s2 = "is a mern stack developer"
