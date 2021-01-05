@@ -5,19 +5,19 @@ import { data } from 'jquery';
 
 const containerStyle = {
     width: '730px',
-    height: '400px'
+    height: '40px'
 };
 const theme = theme => ({
     ...theme,
     colors: {
         ...theme.colors,
         primary25: "#e0e0e0",
-        primary: '#444444'
+        primary: '#44444'
     }
 });
 const center = {
-    lat: 32.0998,
-    lng: 76.2691
+    lat: 32.09,
+    lng: 7.26
 };
 
 function MyComponent(props) {
