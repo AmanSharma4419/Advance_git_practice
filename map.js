@@ -12,19 +12,19 @@ const theme = theme => ({
     colors: {
         ...theme.colors,
         primary25: "#e0e0e0",
-        primary: '#44444'
+        primary: '#444444'
     }
 });
 const center = {
-    lat: 32.09,
-    lng: 7.26
+    lat: 32.0998,
+    lng: 76.2691
 };
 
 function MyComponent(props) {
     const [map, setMap] = React.useState(null)
     const [isActive, setisActive] = React.useState(false)
     const [selected, setSelected] = React.useState({});
-    console.log(props.stateContent, "in th data propss")
+    console.log(props.stateContent, "in the data propss")
 
     const onLoad = React.useCallback(function callback(map) {
         // const bounds = new window.google.maps.LatLngBounds();
