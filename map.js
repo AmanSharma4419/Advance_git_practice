@@ -12,12 +12,12 @@ const theme = theme => ({
     colors: {
         ...theme.colors,
         primary25: "#e0e0e0",
-        primary: '#44444'
+        primary: '#444444'
     }
 });
 const center = {
-    lat: 32.09,
-    lng: 7.26
+    lat: 32.0998,
+    lng: 76.2691
 };
 
 function MyComponent(props) {
