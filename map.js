@@ -44,7 +44,7 @@ function MyComponent(props) {
     return (
         <>
             <LoadScript
-                googleMapsApiKey="AIzaSyCnyJJ2gorvX0rsuhBJLNUsfyioWSSep2Q"
+                googleMapsApiKey="xyz"
             >
                 <GoogleMap
                     mapContainerStyle={containerStyle}
