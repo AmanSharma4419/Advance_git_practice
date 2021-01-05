@@ -5,7 +5,7 @@ import { data } from 'jquery';
 
 const containerStyle = {
     width: '730px',
-    height: '400px'
+    height: '40px'
 };
 const theme = theme => ({
     ...theme,
@@ -24,7 +24,7 @@ function MyComponent(props) {
     const [map, setMap] = React.useState(null)
     const [isActive, setisActive] = React.useState(false)
     const [selected, setSelected] = React.useState({});
-    console.log(props.stateContent, "in th data propss")
+    console.log(props.stateContent, "in the data propss")
 
     const onLoad = React.useCallback(function callback(map) {
         // const bounds = new window.google.maps.LatLngBounds();
