@@ -5,7 +5,7 @@ import { data } from 'jquery';
 
 const containerStyle = {
     width: '730px',
-    height: '400px'
+    height: '40px'
 };
 const theme = theme => ({
     ...theme,
